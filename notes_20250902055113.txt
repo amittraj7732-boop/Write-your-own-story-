@@ -1,0 +1,107 @@
+09.02 5:46 AM
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manga Writer Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #1a1a1a;
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .bio, .works, .contact {
+      margin-bottom: 3rem;
+    }
+    .works-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .work-item {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .contact form {
+      display: flex;
+      flex-direction: column;
+    }
+    .contact input, .contact textarea, .contact button {
+      margin-bottom: 1rem;
+      padding: 0.8rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .contact button {
+      background-color: #1a1a1a;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    .contact button:hover {
+      background-color: #333;
+    }
+    footer {
+      text-align: center;
+      background: #1a1a1a;
+      color: #fff;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Manga Writer | Storyteller | Creative Mind</p>
+  </header>  <section class="bio">
+    <h2>About Me</h2>
+    <p>Write a short bio here about your journey as a manga writer, your style, and what inspires your stories.</p>
+  </section>  <section class="works">
+    <h2>My Works</h2>
+    <div class="works-grid">
+      <div class="work-item">
+        <h3>Title of Manga</h3>
+        <p>Short description of this project. What is it about, what themes does it explore?</p>
+      </div>
+      <div class="work-item">
+        <h3>Another Work</h3>
+        <p>Details about another story or writing piece. Add links or sample images later.</p>
+      </div>
+    </div>
+  </section>  <section class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>  <footer>
+    <p>© 2025 Your Name - Manga Writer Portfolio</p>
+  </footer>
+</body>
+</html>
